@@ -1,6 +1,12 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import logo from './logo.svg'
+import './App.css'
+
+let username: string = 'Hello'
+
+let dummy: number = 1
+
+const func1 = (x: number, y: number) => x + y
 
 function App() {
   return (
@@ -20,7 +26,7 @@ function App() {
         </a>
       </header>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
